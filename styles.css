@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: darkslategrey;
+    color: azure;
+    text-align: justify;
+}
+
+
+/* Styling contents of the header tag */
+header{
+    background-color: cadetblue;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    box-shadow: inset;
+}
+.name {
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    margin-bottom: 20px;
+}
+
+/* Setting a container to set the margins of the main contents */
+.container {
+    margin: 50px;
+    padding: auto;
+    line-height: 1.5rem;
+}
+
+/* Styling the links */
+.link {
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+    padding: 10px 15px;
+    margin: 20px;
+    border-radius: 5px;
+}
+.link:hover {
+    background-color: whitesmoke;
+    transition: 0.5s;
+}
+
+/* Settting margins for sections of the main */
+.about, .project, .skill {
+    margin: 40px 0;
+}
+
+/* styling the title of each section */
+.section-head {
+    margin-bottom: 15px;
+    font-weight: 700 bolder;
+    font-size: 32px;
+}
+
+/* styling the link to my projects */
+.git-link {
+    border: 1px solid grey;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: gray;
+    background-image: url('./image/git.jpg');
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+.git-link > a {
+    text-decoration: none;
+    color: black;
+}
+.git-link:hover {
+    background-color: white;
+    transition: 0.6s;
+}
+
+/* Styling contents of the skills section */
+.subskill{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px 0;
+}
+.subskill > h3 {
+    font-weight: 500 bold;
+    font-size: 24px;
+}
+.subskill > h4 {
+    font-weight: 400 lighter;
+    font-size: 16px;
+}
+
+/* Styling contents of the footer section */
+footer {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.copyright {
+    margin-bottom: 15px;
+}
+.contact {
+    margin: 15px;
+    padding: 20px;
+}
